@@ -10,3 +10,27 @@ input {
     line-height: 16px;
     margin: 10px 0;
 }
+
+#results {
+    padding: 1rem;
+    font-size: 1.5rem;
+    .headings {
+        font-weight: bold;
+    }
+}
+
+#article {
+    font-size: 1rem;
+}
+
+.info {
+    padding: 0.3rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.image-container {
+    padding: 0.3rem;
+    display: flex;
+    flex-flow: column;
+}

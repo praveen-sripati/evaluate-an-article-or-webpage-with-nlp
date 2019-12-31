@@ -11,4 +11,41 @@ main {
 section {
     max-width: 800px;
     margin: 50px auto;
+    section {
+        section {
+            background-color: bisque;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+    }
+}
+
+#result-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #B56246;
+}
+
+#results {
+    padding: 1rem;
+    font-size: 1.5rem;
+    .headings {
+        font-weight: bold;
+    }
+}
+
+#article {
+    font-size: 1rem;
+}
+
+.info {
+    padding: 0.3rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.image-container {
+    padding: 0.3rem;
+    display: flex;
+    flex-flow: column;
 }
