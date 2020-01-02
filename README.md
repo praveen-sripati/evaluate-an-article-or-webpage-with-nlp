@@ -83,11 +83,11 @@ I won't provide further examples here, as it's up to you to create the various r
 
 ## Run
 
-- [ ]  For Developer Mode - `npm run build-dev`  ||  **For Production Mode** - `npm run build-prod`
+- [ ]  **For Developer Mode** - `npm run build-dev`  ||  **For Production Mode** - `npm run build-prod`
 - [ ] To start the server you should run `npm run start` command in CLI
 - [ ] The server should start on your browser on port [8081]('http://localhost:8081/')
 - [ ] To test the project use the following command: `npm run test`
 
 ## License
-[MIT] (LICENSE)
+[MIT](LICENSE)
 
