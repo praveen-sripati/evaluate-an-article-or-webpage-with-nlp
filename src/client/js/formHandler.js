@@ -50,7 +50,7 @@ function updateUI(data) {
         }
         document.getElementById('not-available').innerHTML = "Not Available";
     }
-    (data.article !== '' ? document.getElementById('article').innerHTML = data.article : document.getElementById('article').innerHTML = "Not Available");
+    (data.article !== '' ? document.getElementById('article').innerHTML = data.article : document.getElementById('article').innerHTML = "<p style='font-size:1.5rem'>Not Available</p>");
     (data.videos.length !== 0 ? document.getElementById('videos').innerHTML = data.videos : document.getElementById('videos').innerHTML = "Not Available");
     (data.publishDate !== '' ? document.getElementById('publishDate').innerHTML = data.publishDate : document.getElementById('publishDate').innerHTML = "Not Available");
 }
