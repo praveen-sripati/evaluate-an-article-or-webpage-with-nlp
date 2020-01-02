@@ -21,7 +21,7 @@ This project uses a number of open source projects to work properly:
 `cd` into your new folder and run:
 - `npm install`
 
-## Setting up the API
+### Setting up the API
 
 We are using [Aylien API]("https://aylien.com/") to extract information of an article or webpage with Natural Language Processing. The following is the steps for setting up this API as follows:
 
